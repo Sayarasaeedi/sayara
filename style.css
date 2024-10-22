@@ -1,0 +1,55 @@
+/* CSS files add styling rules to your content */
+
+body {
+  min-height: 90vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+img {
+  max-width:90%;
+  height: auto;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.jumbotron {
+  background-image: url("https://i.ytimg.com/vi/9278pnmQsk8/maxresdefault.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+p {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+nav, .navbar {
+  background-color: #ba8a38 !important; /* Force custom color */
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: #BCBDB4;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Ensure it covers the entire viewport height */
+}
